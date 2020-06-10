@@ -1,5 +1,5 @@
 # {{ app_name }}/models.py
-from django.apps import AppConfig
+from django.db import models
 
 
 class {{ camel_case_app_name }}(models.Model):
