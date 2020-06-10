@@ -1,6 +1,8 @@
 # {{ app_name }}/models.py
 from django.db import models
 
+# from .managers import {{ single_app_name }}
+
 
 class {{ single_app_name }}(models.Model):
     # name = models.CharField(max_length=150, unique=True)

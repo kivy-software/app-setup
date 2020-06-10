@@ -1,4 +1,4 @@
-# {{ camel_case_app_name }}/urls.py
+# {{ app_name }}/urls.py
 from rest_framework.routers import DefaultRouter
 
 from .views import {{ single_app_name }}ViewSet
