@@ -2,7 +2,7 @@
 from django.db import models
 
 
-class {{ camel_case_app_name }}(models.Model):
+class {{ single_app_name }}(models.Model):
     # name = models.CharField(max_length=150, unique=True)
 
     class Meta:
