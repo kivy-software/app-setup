@@ -6,8 +6,8 @@ from .models import {{ single_app_name }}
 from .serializers import {{ single_app_name }}Serializer
 
 
-class {{ camel_case_app_name }}ViewSet(viewsets.ModelViewSet):
-    queryset = class {{ single_app_name }}.objects.all()
-    serializer_class =  {{ single_app_name }}Serializer
-    # filter_class = ()
-    #
+class {{ single_app_name }}ViewSet(viewsets.ModelViewSet):
+    queryset = {{ single_app_name }}.objects.all()
+    serializer_class = {{ single_app_name }}Serializer
+    ordering_fields = ("id", )
+    # filter_class = {{ single_app_name }}Filter

@@ -9,5 +9,4 @@ class {{ single_app_name }}(models.Model):
         ordering = ("-id", )
 
     def __str__(self):
-        # only if you uncomment name
         return self.name
