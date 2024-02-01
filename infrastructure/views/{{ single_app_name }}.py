@@ -1,4 +1,4 @@
-# {{ app_name }}/views.py
+# {{toplevel}}/infrastructure/views/{{ app_name }}/{{ single_app_name }}.py
 from rest_framework import viewsets
 
 # from .filters import {{ single_app_name }}Filter

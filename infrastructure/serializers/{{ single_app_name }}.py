@@ -1,4 +1,4 @@
-# {{ app_name }}/serializers.py
+# {{ top_level }}/infrastructure/serializers/{{ single_app_name }}/{{ single_app_name }}.py
 from rest_framework import serializers
 
 from .models import {{ single_app_name }}
