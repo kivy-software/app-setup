@@ -1,7 +1,7 @@
 # {{ top_level }}/infrastructure/models/{{ single_app_name }}.py
 from django.db import models
 
-from .managers import {{ single_app_name }}Manager
+from {{ top_level}}.{{app_name}}.infrastructure.managers import {{ single_app_name }}Manager
 
 
 class {{ single_app_name }}(models.Model):
